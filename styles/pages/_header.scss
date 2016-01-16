@@ -1,11 +1,62 @@
 header {
 	background: $Black;
 	color: #fff;
-	section {
-		background: $Camel
+	.container {
+		> span {
+			padding: 30px 0 20px 15px;
+			color: $GrayText;			
+			font-size: $font-size-h2;
+			display: inline-block;
+			&:first-child {
+				color: #fff;
+				font-family: $OpenSansLight;
+			}
+		}
+		> a {
+			padding: 16px 0 0 0;
+			float: left;
+		}
 	}
+
+	// Fixd Navigation
+	// ------------------------------------------------------------------
 	nav {
-		@include inline-block(auto, auto, auto, auto, auto);
-		@include position(fixed, 100px null null 0);
+		@include position(fixed, 92px null null 0);
+		background: #fff;
+		> span {
+			@include inline-block(150px, auto, auto, auto, auto);
+			background: $Black;
+			padding: 15px 30px;
+
+		}
+		a {
+			@include inline-block(150px, auto, auto, auto, auto);
+			border-bottom: 1px solid #ccc;
+			padding: 15px 30px;
+			color: $Black;
+			&:hover { background: $Yellow; }
+		}
+	}
+
+	// Welcome Section
+	// ------------------------------------------------------------------
+	section {
+		border-bottom: 28px solid $DarkBroun;
+		padding: 34px 0 0 0;
+		background: $Broun;
+		h1 {
+		    width: 290px;
+		    font-size: 62px;
+		    line-height: 77px;
+		}
+		p {
+			font-family: $OpenSansLight;
+		    width: 290px;
+		    color: $Black;
+		    font-size: 33px;
+		    font-size: 25px;
+    		margin: 22px 0 100px 0;
+
+		}
 	}
 }

@@ -11,6 +11,24 @@ $DarkCamel: #dcdcdc;
 $Green: #04BE5B;
 $Yellow: #e3ca2f;
 
+$GrayText: #b5b5b5;
+
+
+$OpenSansRegular:  				"open_sans_hebrewregular", Helvetica, Arial, sans-serif;
+$OpenSansLight: 				"open_sans_hebrewlight", Helvetica, Arial, sans-serif;
+$OpenSansBold: 					"open_sans_hebrewbold", Helvetica, Arial, sans-serif;
+$Ariel: 						Arial, sans-serif;
+
+$font-size-base:          		14px !default;
+$font-size-large:         		ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         		ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            		floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            		floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            		ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:           		ceil(($font-size-base * 1.25)) !default; // ~18px
+
+
 
 // ******************************************************************************************************************************
 // Global Fonts

@@ -105,10 +105,26 @@ In your scss:
 Helper to ease the use of inline-blocks -
 The faster, more usable and more sane use of aligning elements horizontally.
 */
-body { font: 14px/16px 'open_sans_hebrewregular', arial, sans-serif; direction: rtl; }
+body { font: 14px/1.4 "open_sans_hebrewregular", Helvetica, Arial, sans-serif; direction: rtl; }
+
+h1 { font-size: 36px; }
+
+h2 { font-size: 30px; }
+
+h3 { font-size: 24px; }
+
+h4 { font-size: 18px; }
 
 .container { max-width: 1070px; margin: 0 auto; }
 
 header { background: #282828; color: #fff; }
-header section { background: #605f52; }
-header nav { display: inline-block; position: fixed; top: 100px; left: 0; }
+header .container > span { padding: 30px 0 20px 15px; color: #b5b5b5; font-size: 30px; display: inline-block; }
+header .container > span:first-child { color: #fff; font-family: "open_sans_hebrewlight", Helvetica, Arial, sans-serif; }
+header .container > a { padding: 16px 0 0 0; float: left; }
+header nav { position: fixed; top: 92px; left: 0; background: #fff; }
+header nav > span { display: inline-block; width: 150px; background: #282828; padding: 15px 30px; }
+header nav a { display: inline-block; width: 150px; border-bottom: 1px solid #ccc; padding: 15px 30px; color: #282828; }
+header nav a:hover { background: #e3ca2f; }
+header section { border-bottom: 28px solid #605f52; padding: 34px 0 0 0; background: #949381; }
+header section h1 { width: 290px; font-size: 62px; line-height: 77px; }
+header section p { font-family: "open_sans_hebrewlight", Helvetica, Arial, sans-serif; width: 290px; color: #282828; font-size: 33px; font-size: 25px; margin: 22px 0 100px 0; }

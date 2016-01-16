@@ -1,6 +1,16 @@
 body {
-	font: 14px/16px 'open_sans_hebrewregular', arial, sans-serif;
+	font: 14px/1.4 $OpenSansRegular;
 	direction: rtl;
+}
+
+
+h1 {font-size: $font-size-h1;}
+h2 {font-size: $font-size-h2;}
+h3 {font-size: $font-size-h3;}
+h4 {font-size: $font-size-h4;}
+
+p {
+
 }
 .container {
 	max-width: 1070px;
