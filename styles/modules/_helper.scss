@@ -1,0 +1,32 @@
+// ******************************************************************************************************************************
+// General Colors
+// ******************************************************************************************************************************
+
+$Black: #282828;
+$Broun: #949381;
+$DarkBroun: #605f52;
+$LightBroun: #e3ca2f;
+$Camel: #605f52;
+$DarkCamel: #dcdcdc;
+$Green: #04BE5B;
+$Yellow: #e3ca2f;
+
+
+
+// ******************************************************************************************************************************
+// Global Partials
+// *****************************************************************************************************************************
+
+@import "compass/css3/images";
+
+@import "partials/globals-mixin/background-image.scss";
+@import "partials/globals-mixin/inline-block.scss";
+@import "partials/globals-mixin/vertical-align.scss";
+@import "partials/globals-mixin/horizontal-align.scss";
+@import "partials/globals-mixin/respond-basic.scss";
+@import "partials/globals-mixin/placeholder.scss";
+@import "partials/globals-mixin/position.scss";
+@import "partials/globals-mixin/hide-text.scss";
+@import "partials/globals-mixin/ellipsis.scss";
+
+

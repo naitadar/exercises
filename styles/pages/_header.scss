@@ -1,0 +1,11 @@
+header {
+	background: $Black;
+	color: #fff;
+	section {
+		background: $Camel
+	}
+	nav {
+		@include inline-block(auto, auto, auto, auto, auto);
+		@include position(fixed, 100px null null 0);
+	}
+}
