@@ -105,7 +105,7 @@ In your scss:
 Helper to ease the use of inline-blocks -
 The faster, more usable and more sane use of aligning elements horizontally.
 */
-body { font: 14px/16px arial, sans-serif; direction: rtl; }
+body { font: 14px/16px 'open_sans_hebrewregular', arial, sans-serif; direction: rtl; }
 
 .container { max-width: 1070px; margin: 0 auto; }
 
